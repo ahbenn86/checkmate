@@ -1,4 +1,4 @@
-# Checkmate
+# CheckMate
 ### An app for sending and receiving money.  
 <br/>
 

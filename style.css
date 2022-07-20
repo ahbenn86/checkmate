@@ -13,6 +13,29 @@ html {
   font-size: 62.5%;
 }
 
+.logo {
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 800;
+  color: rgb(19, 202, 53);
+  position: relative;
+}
+
+.c-1 {
+  font-size: 4.5rem;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.c-2 {
+  font-size: 4.5rem;
+  color: rgb(171, 214, 143);
+  position: absolute;
+  top: 0.4rem;
+  left: 0.5rem;
+}
+
 .green-btn {
   width: 35rem;
   height: 5rem;
@@ -29,6 +52,11 @@ html {
   cursor: pointer;
 }
 /*End of common styles*/
+
+/*Fron Page*/
+.front-page {
+  display: none;
+}
 
 /*Section 1*/
 .section-1 {
@@ -60,28 +88,7 @@ html {
   align-items: center;
 }
 
-.navbar-logo {
-  font-size: 3.5rem;
-  font-style: italic;
-  font-weight: 800;
-  color: rgb(19, 202, 53);
-  position: relative;
-}
 
-.p-1 {
-  font-size: 4.5rem;
-  margin-right: 1rem;
-  position: relative;
-  z-index: 10;
-}
-
-.p-2 {
-  font-size: 4.5rem;
-  color: rgb(171, 214, 143);
-  position: absolute;
-  top: 0.4rem;
-  left: 0.5rem;
-}
 
 .nav-list {
   display: flex;
@@ -436,3 +443,116 @@ html {
   letter-spacing: 0.1rem;
 }
 /*End of section 5*/
+/*End of Front Page*/
+
+/*Login Page*/
+.login-page {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.login-page-content {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.1rem solid #cfcfcf;
+  padding: 3rem;
+}
+
+.login-page-logo {
+  margin-bottom: 1.2rem;
+}
+
+/* .login-page-logo .c-1 {
+  color: #29c03d;
+}
+
+.login-page-logo .c-2 {
+  color: #219531;
+} */
+
+.login-page-logo span:nth-child(3){
+  color: rgb(19, 202, 53);
+}
+
+.login-page-logo span:nth-child(4){
+color: rgb(171, 214, 143);
+}
+
+.login-page-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-page-form input {
+  width: 37rem;
+  height: 4.5rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.form-login-input {
+  padding: 0 1.5rem;
+  border: 0.1rem solid #777;
+  font-size: 1.6rem;
+}
+
+.form-login-btn {
+  background-color: #06990b;
+  color: #fff;
+  border: 0.1rem solid #06990b;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-login-link {
+  font-size: 1.6rem;
+  color: #2d77ff;
+  margin: 1.2rem 0.1rem 0;
+}
+
+.login-page-form span {
+  width: 2rem;
+  font-size: 1.8rem;
+  color: #888;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.login-page-form span::before {
+  content:"";
+  width: 16rem;
+  height: 0.1rem;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  right: 3.5rem;
+  transform: translateY(-50%);
+}
+
+.login-page-form span::after {
+  content:"";
+  width: 16rem;
+  height: 0.1rem;
+  background-color: #ccc;
+  position: absolute;
+  top: 50%;
+  left: 3.5rem;
+  transform: translateY(-50%);
+}
+
+.form-signup-btn {
+  background-color: #dbe8ec;
+  border: .1rem solid #dbe8ec;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+/*End of Login Page*/

@@ -450,6 +450,7 @@ html {
   width: 100%;
   height: 100vh;
   position: relative;
+  display: none;
 }
 
 .login-page-content {
@@ -553,3 +554,5 @@ html {
   border: .2rem solid #44994fa9;
 }
 /*End of Login Page*/
+
+

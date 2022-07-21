@@ -559,7 +559,7 @@ html {
   height: 100vh;
   background: linear-gradient(
     to bottom,
-    rgba(112, 112, 112, 0.9),
+    rgba(145, 243, 143, 0.9),
     rgba(255, 255, 255, 0.8) 10%
   );
   display: flex;

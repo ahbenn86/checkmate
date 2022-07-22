@@ -53,7 +53,7 @@ html {
 }
 /*End of common styles*/
 
-/*Fron Page*/
+/*Front Page*/
 .front-page {
   display: none;
 }
@@ -637,10 +637,14 @@ justify-content: space-between;
 
 
 .input-group {
-  display: flex;
-  /* flex-direction: column; */
-  margin: 1.5rem;
+  /* display: flex;
+  flex-direction: column; */
   
+  
+}
+
+#continue-btn {
+  margin-top: 3rem;
 }
 
 .option h3 {

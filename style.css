@@ -19,6 +19,7 @@ html {
   font-weight: 800;
   color: rgb(19, 202, 53);
   position: relative;
+  cursor: pointer;
 }
 
 .c-1 {
@@ -55,7 +56,7 @@ html {
 
 /*Front Page*/
 .front-page {
-  /* display: none; */
+  /* display: block; */
 }
 
 /*Section 1*/

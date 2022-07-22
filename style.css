@@ -88,6 +88,29 @@ html {
   align-items: center;
 }
 
+.navbar-logo {
+  font-size: 3.5rem;
+  font-style: italic;
+  font-weight: 800;
+  color: rgb(19, 202, 53);
+  position: relative;
+}
+
+.c-1 {
+  font-size: 4.5rem;
+  margin-right: 1rem;
+  position: relative;
+  z-index: 10;
+}
+
+.c-2 {
+  font-size: 4.5rem;
+  color: rgb(171, 214, 143);
+  position: absolute;
+  top: 0.4rem;
+  left: 0.5rem;
+}
+
 .nav-list {
   display: flex;
 }

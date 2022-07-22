@@ -55,7 +55,7 @@ html {
 
 /*Front Page*/
 .front-page {
-  display: none;
+  /* display: none; */
 }
 
 /*Section 1*/
@@ -562,7 +562,7 @@ html {
     rgba(145, 243, 143, 0.9),
     rgba(255, 255, 255, 0.8) 10%
   );
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
 }
@@ -637,13 +637,11 @@ justify-content: space-between;
 
 
 .input-group {
-  /* display: flex;
-  flex-direction: column; */
-  
-  
+  display: flex;
+  margin: 1.5rem;
 }
 
-#continue-btn {
+.continue-btn {
   margin-top: 3rem;
 }
 

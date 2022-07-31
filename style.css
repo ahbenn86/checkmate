@@ -592,23 +592,23 @@ html {
 }
 
 .signup-page-top {
-width: 120rem;
-height: 10rem;
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 5rem;
+  width: 120rem;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
 }
 
 .signup-page-content {
-width: 120rem;
-display: flex;
-justify-content: space-between;
+  width: 120rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .signup-page-content-left {
   width: 60%;
-  border-right: .1rem solid #b1b1b1;
+  border-right: 0.1rem solid #b1b1b1;
   padding: 3rem 3rem 3rem 0;
 }
 
@@ -617,7 +617,7 @@ justify-content: space-between;
   margin-bottom: 5rem;
 }
 
-.signup-page-top button{
+.signup-page-top button {
   width: 8rem;
   padding: 0.7rem;
   background-color: rgb(92, 203, 112);
@@ -659,7 +659,6 @@ justify-content: space-between;
   font-weight: 500;
 }
 
-
 .input-group {
   display: flex;
   margin: 1.5rem;
@@ -681,6 +680,109 @@ justify-content: space-between;
 .input-group input[type="radio"] {
   width: 30%;
   height: 2rem;
-  margin: .5rem 1rem 0 -1.5rem;
+  margin: 0.5rem 1rem 0 -1.5rem;
 }
 /*End of sign Up page*/
+
+/*Responsive*/
+@media (max-width: 1500px) {
+  .nav-dropdown {
+    padding: 0 25rem;
+  }
+  .nav-dropdown-item {
+    margin: 2rem 6rem;
+  }
+  .features {
+    width: 80%;
+  }
+  .feature {
+    padding: 0 3rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 55%;
+  }
+
+  .navbar {
+    width: 100rem;
+  }
+
+  .section-1 {
+    height: 70vh;
+  }
+
+  .banner-paragraph {
+    width: 70%;
+  }
+
+  .services {
+    width: 90%;
+  }
+
+  .features {
+    width: 90%;
+  }
+
+  .section-4-content {
+    width: 80%;
+  }
+
+  .section-4-img-wrapper {
+    width: 40%;
+    margin-right: 6rem;
+  }
+
+  .signup-page {
+    background: linear-gradient(
+      to bottom,
+      rgba(145, 243, 143, 0.9),
+      rgba(255, 255, 255, 0.8) 12%
+    );
+  }
+}
+
+@media (max-width: 1200px) {
+  .signup-page-top {
+    width: 90rem;
+  }
+
+  .signup-page-content {
+    width: 90rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup-page-content-left {
+    width: 100%;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 0.1rem solid #b1b1b1;
+  }
+
+  .signup-page-content-right {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  .input-group input[type="radio"] {
+    width: 10%;
+    margin: 0.5rem 0 0 -3rem;
+  }
+
+  .signup-page-content-right .green-btn {
+    width: 100%;
+    margin: 3rem 0;
+  }
+
+  @media (max-width: 1100px) {
+    .nav-dropdown-item {
+      margin: 2rem 3.4rem;
+    }
+  }
+}
+/*End of responsive*/

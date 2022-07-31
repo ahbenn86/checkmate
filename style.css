@@ -784,5 +784,117 @@ html {
       margin: 2rem 3.4rem;
     }
   }
+
+  @media(max-width: 1000px){
+    html {
+      font-size: 50%;
+    }
+
+    .navbar {
+      width: 100%;
+      padding: 0.5rem;
+    }
+
+    .menu {
+      width: 11rem;
+      height: 4rem;
+      background-color: rgba(15, 182, 0, 0);
+      border-radius: 3rem;
+      border: 0.1rem solid rgb(83, 174, 23);
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      transform: translateX(16rem);
+    }
+
+    .menu-icon {
+      height: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .line {
+      width: 2rem;
+      height: .1rem;
+      background-color: rgb(255, 255, 255);
+    }
+
+    .menu span {
+      font-size: 1.8rem;
+    }
+
+    .nav-list,
+    .nav-dropdown-personal {
+      /* display: none; */
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 20rem;
+      height: 100vh;
+      background: linear-gradient(to bottom, #219531, #06990b,#06991a);
+      flex-direction: column;
+      padding-top: 2rem;
+      z-index: 200;
+    }
+
+    .nav-dropdown-personal {
+      opacity: 1;
+      visibility: visible;
+      padding: 1rem;
+      justify-content: flex-start;
+    }
+
+    .nav-dropdown-item {
+      width: 100%;
+      margin: 1rem 1rem 0.1rem;
+    }
+
+    .dropdown-heading a {
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      color: #fff;
+    }
+
+    .dropdown-heading a i {
+      font-size: 1.5rem;
+      transform: rotate(90deg);
+      margin-right: 1rem;
+    }
+
+    .nav-dropdown-link-1 {
+      font-size: 1.4rem;
+    }
+
+    .nav-dropdown-link-2 {
+      display: none;
+    }
+
+    .nav-list-item {
+      width: 100%;
+      height: auto;
+      padding: 01rem;
+      margin: 0.4rem 0;
+    }
+
+    .nav-list-link {
+      font-size: 1.4rem;
+    }
+
+    .nav-list-link:hover {
+      border-bottom: none;
+    }
+
+    .nav-list-item i {
+      font-size: 1.2rem;
+      transform: rotate(-90deg);
+    }
+
+    .nav-dropdown-business {
+      display: none;
+    }
+  }
 }
 /*End of responsive*/

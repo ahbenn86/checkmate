@@ -4,7 +4,7 @@
 <a href="https://ahbenn86.github.io/checkmate/">View progress</a>
 <!-- ![Insert Image Link Here]() -->
 
-> Currently under development 
+> View Live 
 
 <br/>
 
